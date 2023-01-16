@@ -1,89 +1,43 @@
-<mxfile host="app.diagrams.net" modified="2023-01-16T08:32:36.491Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="i_zJ4iwh3GFf69SiDDxI" version="20.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-16T11:48:08.183Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="irlR_6YHk-oScgdpDqC2" version="20.8.5" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="954" dy="620" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="j96Eu-lP1SApl69npcFp-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="145" y="569" width="30" height="60" as="geometry" />
+        <mxCell id="j96Eu-lP1SApl69npcFp-26" value="Thumbnail Updater Backend" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="170" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="3nuBFxr9cyL0pnOWT2aG-2" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="270" y="513" width="10" height="269" as="geometry" />
+        <mxCell id="j96Eu-lP1SApl69npcFp-28" value="Google API server" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="478" y="41" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="j96Eu-lP1SApl69npcFp-4" value="Thumbnail Updater app" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="215" y="405" width="120" height="60" as="geometry" />
+        <mxCell id="j96Eu-lP1SApl69npcFp-31" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="107" y="180" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="j96Eu-lP1SApl69npcFp-5" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="j96Eu-lP1SApl69npcFp-4">
+        <mxCell id="j96Eu-lP1SApl69npcFp-32" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="j96Eu-lP1SApl69npcFp-31" target="j96Eu-lP1SApl69npcFp-28">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="275" y="850" as="sourcePoint" />
-            <mxPoint x="272" y="463" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="275" y="734" />
-              <mxPoint x="275" y="593" />
-              <mxPoint x="275" y="514" />
-            </Array>
+            <mxPoint x="399" y="334" as="sourcePoint" />
+            <mxPoint x="449" y="284" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="j96Eu-lP1SApl69npcFp-7" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="447" y="513" width="10" height="274" as="geometry" />
-        </mxCell>
-        <mxCell id="j96Eu-lP1SApl69npcFp-8" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
+        <mxCell id="j96Eu-lP1SApl69npcFp-33" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="j96Eu-lP1SApl69npcFp-31" target="j96Eu-lP1SApl69npcFp-26">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="452" y="850" as="sourcePoint" />
-            <mxPoint x="452" y="465" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="452" y="734" />
-              <mxPoint x="452" y="593" />
-              <mxPoint x="452" y="514" />
-            </Array>
+            <mxPoint x="399" y="334" as="sourcePoint" />
+            <mxPoint x="449" y="284" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="j96Eu-lP1SApl69npcFp-9" value="GoogleApi" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="392" y="403" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="j96Eu-lP1SApl69npcFp-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="j96Eu-lP1SApl69npcFp-1">
+        <mxCell id="j96Eu-lP1SApl69npcFp-34" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="j96Eu-lP1SApl69npcFp-26" target="j96Eu-lP1SApl69npcFp-28">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="399" y="738" as="sourcePoint" />
-            <mxPoint x="453" y="597" as="targetPoint" />
+            <mxPoint x="399" y="334" as="sourcePoint" />
+            <mxPoint x="433" y="278" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="j96Eu-lP1SApl69npcFp-11" value="Signin using google credcentials" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="j96Eu-lP1SApl69npcFp-10">
-          <mxGeometry x="0.2015" y="4" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
+        <mxCell id="j96Eu-lP1SApl69npcFp-35" value="SQL db" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="462" y="272" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="j96Eu-lP1SApl69npcFp-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.1;exitY=0.427;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="j96Eu-lP1SApl69npcFp-7">
+        <mxCell id="j96Eu-lP1SApl69npcFp-36" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="j96Eu-lP1SApl69npcFp-26" target="j96Eu-lP1SApl69npcFp-35">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="399" y="738" as="sourcePoint" />
-            <mxPoint x="276" y="631" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="j96Eu-lP1SApl69npcFp-13" value="OAuth token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="j96Eu-lP1SApl69npcFp-12">
-          <mxGeometry x="-0.1279" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="j96Eu-lP1SApl69npcFp-14" value="SQL DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="615" y="596" width="60" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="j96Eu-lP1SApl69npcFp-19" value="Save / Retreive OAuth tockens&amp;nbsp;" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=-15;entryPerimeter=0;" edge="1" parent="1" target="j96Eu-lP1SApl69npcFp-14">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="278" y="657" as="sourcePoint" />
-            <mxPoint x="449" y="688" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="j96Eu-lP1SApl69npcFp-20" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.youtube;fillColor=#FF2626;gradientColor=#B5171F" vertex="1" parent="1">
-          <mxGeometry x="615" y="726" width="105" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="j96Eu-lP1SApl69npcFp-21" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.2;exitY=0.877;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="3nuBFxr9cyL0pnOWT2aG-2" target="j96Eu-lP1SApl69npcFp-20">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="399" y="738" as="sourcePoint" />
-            <mxPoint x="523" y="736" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="j96Eu-lP1SApl69npcFp-22" value="Update/ get data from youtube" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="j96Eu-lP1SApl69npcFp-21">
-          <mxGeometry x="-0.4922" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="399" y="334" as="sourcePoint" />
+            <mxPoint x="449" y="284" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
